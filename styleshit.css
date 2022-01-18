@@ -1,0 +1,100 @@
+.autoskepek img {
+    width: 100%;
+    max-width: 200px;
+    border: #fffffc solid 4px;
+    float: right;
+    padding: 5px;
+}
+
+img {
+    border: 5px solid #fffffc;
+}
+nav {
+    background-color: #008768;
+    grid-area: n;
+    height: 50px;
+    padding-top: 30px;
+}
+nav a {
+    text-decoration: none;
+    color: #fffffc;
+    padding: 10px;
+}
+body {
+    color: #008768;
+    font-family: Courier New, monospace;
+}
+main {
+    background-color: #fffffc;
+    display: grid;
+    grid-template-areas:
+        "h h h"
+        "n n n"
+        "ar ar as"
+        "ar ar as"
+        "f f f";
+    max-width: 850px;
+    margin: auto;
+}
+
+article {
+    color: black;
+    grid-area: ar;
+}
+
+.bacsik img {
+    width: 100%;
+    border: white solid 5px;
+    max-width: 200px;
+    float: none;
+}
+.bacsineve {
+    background-color: #f7f7f4;
+    text-align: left;
+    height: 100%;
+    border: 1px #d8d8d6 solid;
+}
+.bacsik {
+    float: left;
+    border: #d8d8d6 solid 1px;
+    max-width: 300px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+footer {
+    grid-area: f;
+    text-align: center;
+}
+aside {
+    grid-area: as;
+}
+header {
+    grid-area: h;
+}
+
+h3 {
+    color: #008768;
+}
+h1 {
+    color: #008768;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+ol {
+    text-align: justify;
+}
+li {
+    text-align: justify;
+}
